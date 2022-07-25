@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Polisa"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="btnSacuvaj" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="btnObrisiPolisu" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="lblPovrsina" alignment="0" pref="156" max="32767" attributes="0"/>
+                                              <Component id="lblKlijent" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="lblVrKvM" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="lblDatOD" min="-2" pref="156" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtPovrsina" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="txtDatumOd" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="txtGradjVr" min="-2" pref="243" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="btnIzracunaj" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtVrKvM" max="32767" attributes="0"/>
+                                          <Component id="cmbKlijent" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblPokrice" min="-2" pref="114" max="-2" attributes="0"/>
+                                          <Component id="lblPredmet" min="-2" pref="147" max="-2" attributes="0"/>
+                                          <Component id="lblDatDo" alignment="0" min="-2" pref="156" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="txtAmortizacija" min="-2" pref="41" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="cmbPokrice" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="cmbPredmet" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="txtDatumDo" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnDodaj" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btnObrisi" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblGradjVr" min="-2" pref="156" max="-2" attributes="0"/>
+                                  <Component id="lblProcenatAmortizacije" alignment="0" min="-2" pref="156" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="0" min="-2" pref="655" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblKlijent" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbKlijent" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPovrsina" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPovrsina" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblVrKvM" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtVrKvM" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblGradjVr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtGradjVr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnIzracunaj" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDatOD" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDatumOd" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDatDo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDatumDo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPredmet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbPredmet" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblPokrice" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbPokrice" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblProcenatAmortizacije" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAmortizacija" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="15" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnDodaj" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnObrisi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="104" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnSacuvaj" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="btnObrisiPolisu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblKlijent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Klijent:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPovrsina">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Povr&#x161;ina stana(m2):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPovrsina">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtVrKvM">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVrKvM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vrednost po KvM:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGradjVr">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGradjVr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gra&#x111;evinska vrednost:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDatOD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Datum od(dd.MM.yyyy)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDatumOd">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDatumDo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDatDo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Datum do(dd.MM.yyyy)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPredmet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Predmet:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbPredmet">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbPredmetActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPokrice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pokri&#x107;e:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbPokrice">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblStavkePolise">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnSacuvaj">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sa&#x10d;uvaj polisu osiguranja"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSacuvajActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDodaj">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dodaj stavku polise"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDodajActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnObrisi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Obri&#x161;i stavku polise"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnObrisiActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnObrisiPolisu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Obri&#x161;i polisu osiguranja"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnObrisiPolisuActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblProcenatAmortizacije">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Procenat amortizacije:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAmortizacija">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAmortizacijaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnIzracunaj">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Izra&#x10d;unaj"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIzracunajActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbKlijent">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
